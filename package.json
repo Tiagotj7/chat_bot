@@ -1,13 +1,12 @@
 {
-  "name": "whatsapp-bot",
+  "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "Bot simples para WhatsApp com whatsapp-web.js",
-  "main": "chatbot.js",
+  "description": "Bot simples para Telegram",
+  "main": "telegram-bot.js",
   "scripts": {
-    "start": "node chatbot.js"
+    "start": "node telegram-bot.js"
   },
   "dependencies": {
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.24.0"
+    "node-telegram-bot-api": "^0.64.0"
   }
 }
