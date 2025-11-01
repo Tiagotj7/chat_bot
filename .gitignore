@@ -1,0 +1,9 @@
+# .gitignore
+node_modules/
+.env
+.env.local
+.env.production
+secrets/
+config/keys.json
+*.key
+*.pem
